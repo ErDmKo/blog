@@ -1,0 +1,137 @@
+body, html, figure {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+}
+h1,h2,h3,h4 {
+   font-family: 'Poiret One', sans-serif; 
+}
+h1 {
+    font-size: 250%;
+}
+h2 {
+    font-size: 200%;
+}
+h3 {
+    font-size: 150%;
+}
+.p {
+    border: 1px solid #0001;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 10px 0px;
+}
+.p img {
+    max-width: 100%;
+}
+.p .b {
+    display: block;
+}
+.p .b img {
+    border-radius: 5px;
+}
+.a {
+    max-width: 800px;
+    padding: 10px 30px 0px;
+    margin: 0 auto;
+}
+.a strong, .a a {
+   color: #000f;
+}
+.b {
+    max-width: 100%;
+}
+.r {
+    margin: 0px 0px 30px;
+}
+.r time {
+    font-size: 70%;
+    opacity: 60%;
+}
+.l {
+    text-align: center;
+    color: #fff;
+    background: #000;
+    display: inline-block;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+a, p {
+    color: #000a;
+    line-height: 1.55em;
+}
+a:hover {
+    text-decoration: none;
+}
+.l a, .l p {
+    color: #fff;
+}
+.l a {
+    opacity: 0.7;
+}
+.l p {
+    opacity: 0.8;
+}
+.r figcaption {
+    font-size: 70%;
+    opacity: 0.7;
+}
+.l nav > a {
+    display: block;
+}
+.l a:hover {
+    text-decoration: underline;
+}
+.t {
+    padding: 30px;
+    box-sizing: border-box;
+}
+.t li {
+    list-style: none;
+}
+.t ul {
+    padding: 0 0 0 0px;
+}
+.t ul li > ul {
+    padding: 0 0 0 30px;
+}
+@media (min-width: 1400px) {        
+    .a {
+        padding-right: 400px;
+    }
+    .t {
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        width: 400px;
+    }
+}
+@media (min-width: 48em) {        
+    .q {
+        position: absolute;
+        left: 30px;
+        right: 30px;
+        bottom: 30px;
+    }
+    .r {
+        margin-left: 300px;
+    }
+    .l {
+        text-align: left;
+        width: 300px;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}

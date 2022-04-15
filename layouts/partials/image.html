@@ -1,0 +1,31 @@
+{{ $original := .Page.Resources.GetMatch (.Get 0) }}
+{{ .Scratch.Set "jpg" ($original.Resize "600x jpg") }}
+{{ $imageJPG := .Scratch.Get "jpg" }}
+{{ .Scratch.Set "jpg2x" ($original.Resize "1200x jpg") }}
+{{ $imageJPG2x := .Scratch.Get "jpg2x" }}
+{{ .Scratch.Set "webp" ($original.Resize "600x webp") }}
+{{ $imageWebp := .Scratch.Get "webp" }}
+{{ .Scratch.Set "webp2x" ($original.Resize "1200x webp") }}
+{{ $imageWebp2x := .Scratch.Get "webp2x" }}
+{{ $title := .Get 1 }}
+<figure>
+    <picture >
+        <source 
+            srcset="{{ $imageWebp2x.RelPermalink }}" 
+            media="(min-resolution: 192dpi)"
+            type="image/webp"/>
+        <source 
+            srcset="{{ $imageJPG2x.RelPermalink }}" 
+            media="(min-resolution: 192dpi)"
+            type="image/jpg"/>
+        <source 
+            srcset="{{ $imageWebp.RelPermalink }}" 
+            type="image/webp"/>
+        <img 
+            class="b"
+            src="{{ $imageJPG.RelPermalink }}"
+            width="{{ $imageJPG.Width }}"
+            alt="{{ $title }}"/>
+    </picture>
+    <figcaption>{{ $title }}</figcaption>
+</figure>
