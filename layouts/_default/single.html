@@ -1,10 +1,15 @@
 {{ define "twTitle" }}{{ .Title }}{{ end }}
 {{ define "desc"  }}{{ .Summary }}{{ end }}
 {{ define "title" }}{{ .Title }}{{ end }}
-{{ define "head" }}{{ $url := .Params.cover | default "" }}{{ $original := .Page.Resources.GetMatch $url }} {{ if $original }} {{ $resize := $original.Fill "600x400" }}
+{{ define "head" }}{{ $url := .Params.cover | default "" }}{{ $original := .Page.Resources.GetMatch $url }} {{ if $original }} {{ $resize := $original.Fill "600x400 png" }}
+    <meta name="robots" content="max-image-preview:large"/>
     <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="{{ .Title }}"/>
     <meta name="twitter:image" content="{{ $resize.Permalink }}"/>
+    <meta name="twitter:image:alt" content="{{ .Title }}"/>
     <meta name="twitter:description" content="{{ .Summary }}"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:description" content="{{.Summary }}">
     <meta name="og:image" content="{{ $resize.Permalink }}"/>
     <meta property="og:title" content="{{ .Title }}" />{{end}} {{ if .Params.canonical }}
     <link rel="canonical" href="{{ .Params.canonical }}" />

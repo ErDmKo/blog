@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}">
+<html 
+    prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#"
+    lang="{{ .Site.Language.Lang }}">
   <head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Poiret+One|Roboto&display=swap"/>
     <meta name="description" content="{{ block `desc` . }}ErDmKo blog{{ end }}"/>
-    <meta name="twitter:title" content="{{ block `twTitle` . }}ErDmKo blog{{ end }}"/>
     {{ block `head` . }}
     {{ end }}
     {{ with .Site.Social.twitter -}}
