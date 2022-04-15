@@ -1,14 +1,14 @@
+{{ define "twTitle" }}{{ .Title }}{{ end }}
+{{ define "desc"  }}{{ .Summary }}{{ end }}
 {{ define "title" }}{{ .Title }}{{ end }}
-{{ define "head" }}
-    {{ $url := .Params.cover | default "" }}
-    {{ $original := .Page.Resources.GetMatch $url }}
-    {{ if $original }}
-        {{ $resize := $original.Fill "600x400" }}
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="og:image" content="{{ $resize.Permalink }}"/>
-        <meta property="og:title" content="{{ .Title }}" />
-    {{end}}
-{{ end }}
+{{ define "head" }}{{ $url := .Params.cover | default "" }}{{ $original := .Page.Resources.GetMatch $url }} {{ if $original }} {{ $resize := $original.Fill "600x400" }}
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="{{ $resize.Permalink }}"/>
+    <meta name="twitter:description" content="{{ .Summary }}"/>
+    <meta name="og:image" content="{{ $resize.Permalink }}"/>
+    <meta property="og:title" content="{{ .Title }}" />{{end}} {{ if .Params.canonical }}
+    <link rel="canonical" href="{{ .Params.canonical }}" />
+    {{end}} {{ end }} 
 {{ define "main" }}
     <h1>{{ .Title }}</h1>
     <time 

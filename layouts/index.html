@@ -5,9 +5,28 @@
     {{ $original := .Page.Resources.GetMatch $url }}
     <article class="p">
         {{ if $original }}
-        {{ $resize := $original.Fill "600x400" }}
+        {{ $resize := $original.Fill "600x400 jpg" }}
+        {{ $imageJPG2x := $original.Fill "1200x800 jpg" }}
+        {{ $imageWebp2x := $original.Fill "1200x800 webp" }}
+        {{ $imageWebp := $original.Fill "600x400 webp" }}
         <a class="b" href="{{ .Permalink }}">
-            <img alt="{{ .Title }}" src="{{ $resize.Permalink }}"/>
+            <figure>
+                <picture>
+                    <source 
+                        srcset="{{ $imageWebp2x.RelPermalink }}" 
+                        media="(min-resolution: 192dpi)"
+                        type="image/webp"/>
+                    <source 
+                        srcset="{{ $imageJPG2x.RelPermalink }}" 
+                        media="(min-resolution: 192dpi)"
+                        type="image/jpg"/>
+                    <source 
+                        srcset="{{ $imageWebp.RelPermalink }}" 
+                        type="image/webp"/>
+                    <img alt="{{ .Title }}" src="{{ $resize.Permalink }}"/>
+                </picture>
+                <figcaption>{{ .Title }}</figcaption>
+            </figure>
         </a>
         {{ end }}
         <h2><a href="{{ .Permalink }}">{{.Title}}</a></h2>

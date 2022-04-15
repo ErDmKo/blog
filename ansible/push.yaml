@@ -1,0 +1,10 @@
+---
+- hosts: web
+  name: static files push
+  vars:
+    install_dirr: '/opt/blog'
+  tasks:
+  - name: push
+    ansible.posix.synchronize:
+      src: './../public'
+      dest: '{{ install_dirr }}'

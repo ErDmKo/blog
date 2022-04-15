@@ -3,18 +3,9 @@ body, html, figure {
     padding: 0;
     font-family: 'Roboto', sans-serif; 
 }
-@media (min-width: 48em) {
-  html {
-    font-size: 16px;
-  }
-}
-@media (min-width: 58em) {
-  html {
-    font-size: 20px;
-  }
-}
 h1,h2,h3,h4 {
    font-family: 'Poiret One', sans-serif; 
+   margin: 15px 0px 10px
 }
 h1 {
     font-size: 250%;
@@ -28,7 +19,7 @@ h3 {
 .p {
     border: 1px solid #0001;
     border-radius: 5px;
-    padding: 30px;
+    padding: 15px;
     margin: 10px 0px;
 }
 .p img {
@@ -39,10 +30,11 @@ h3 {
 }
 .p .b img {
     border-radius: 5px;
+    aspect-ratio: 600 / 400;
 }
 .a {
     max-width: 800px;
-    padding: 10px 30px 0px;
+    padding: 10px 15px 0px;
     margin: 0 auto;
 }
 .a strong, .a a {
@@ -94,7 +86,7 @@ a:hover {
     text-decoration: underline;
 }
 .t {
-    padding: 30px;
+    padding: 0px;
     box-sizing: border-box;
 }
 .t li {
@@ -106,18 +98,24 @@ a:hover {
 .t ul li > ul {
     padding: 0 0 0 30px;
 }
-@media (min-width: 1400px) {        
-    .a {
-        padding-right: 400px;
-    }
-    .t {
-        position: fixed;
-        right: 0px;
-        top: 0px;
-        width: 400px;
-    }
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
 }
 @media (min-width: 48em) {        
+    h1,h2,h3,h4 {
+        margin: 30px 0px 20px
+    }
+    html {
+        font-size: 16px;
+    }
+    .a {
+        padding: 10px 30px 0px;
+    }
+    .p {
+        padding: 30px;
+    }
     .q {
         position: absolute;
         left: 30px;
@@ -133,5 +131,17 @@ a:hover {
         position: fixed;
         top: 0;
         bottom: 0;
+    }
+}
+@media (min-width: 1400px) {        
+    .a {
+        padding-right: 400px;
+    }
+    .t {
+        position: fixed;
+        right: 0px;
+        padding: 30px;
+        top: 0px;
+        width: 400px;
     }
 }
