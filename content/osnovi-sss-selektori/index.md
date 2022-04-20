@@ -3,6 +3,7 @@ title: 'Основы СSS - селекторы'
 date: '2018-03-31T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/osnovy-sss-selektory-5ab7b7bba936f4ffe3f06b2e
 cover: osnovi-sss-selektori2.jpeg
+tags: ['css']
 ---
 Что же из себя представляют эти самые css правила? Тут есть две части.
 

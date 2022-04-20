@@ -3,6 +3,7 @@ title: 'Основы CSS - встраиваниe'
 date: '2018-03-24T23:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/osnovy-css-vstraivanie-5ab1255679885ec99c4162e1
 cover: osnovi-css-vstraivanie1.jpeg
+tags: ['css']
 ---
 Тут объясняются общие термины и понятия которые необходимы для встраивания каскадных таблиц стилей в HTML документы.
 

@@ -3,6 +3,7 @@ title: 'CSS: БЕМ Блоки и элементы'
 date: '2020-07-17T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/css-bem-bloki-i-elementy-5dda41871d7c9c37ebeddd28
 cover: zachem-sprashivaet-kot1.png
+tags: ['css']
 ---
 Тут поговорим об одной из самых популярных методологий определения наименования классов для элементов в верстке. Попробуем разобраться в том, что такое **блоки** и **элементы** в этом подходе.
 

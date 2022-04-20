@@ -3,6 +3,7 @@ title: 'CSS блоки: inline-block'
 date: '2018-10-06T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/css-bloki-inlineblock-5b4c9d1b8719a600a90bc1cc
 cover: cherno-serii-kot1.jpeg
+tags: ['css']
 ---
 Тут поговорим об одном из-самых популярных способов делать верстку в ie7 и выше.
 

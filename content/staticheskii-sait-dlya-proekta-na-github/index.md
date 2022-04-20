@@ -3,6 +3,7 @@ title: 'Статический сайт для проекта на GitHub'
 date: '2018-03-09T23:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/staticheskii-sait-dlia-proekta-na-github-5aa3ff02c8901016264a155a
 cover: staticheskii-sait-dlya-proekta-na-github4.png
+tags: ['css', 'html', 'github']
 ---
 Это пошаговая инструкция для всех. Тут мы заведем новый аккаунт и создадим "hello word" страницу в интернете. Все скриншоты сделаны от лица mac OS пользователя эта инструкция от 10.03.2018
 

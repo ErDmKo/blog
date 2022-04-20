@@ -3,6 +3,7 @@ title: 'URL - доменные имена'
 date: '2018-12-08T23:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/url-domennye-imena-5bc77cd58a1f9700aa65961d
 cover: url-domennie-imena1.jpeg
+tags: ['URL']
 ---
 Погружаемся глубже в URL. Из чего он состоит, что он него следует ожидать. Попытаемся разобраться зачем нужны регистраторы доменных имен. Что там за домены такие вообще с уровнями. Почему это важно.
 

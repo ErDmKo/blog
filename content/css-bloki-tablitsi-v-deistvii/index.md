@@ -1,9 +1,9 @@
 ---
 title: 'CSS блоки - таблицы в действии'
 date: '2018-05-26T22:00:00.000Z'
-draft: true
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/css-bloki-tablicy-v-deistvii-5b0ad6b39d5cb3416378fec4
 cover: css-bloki-tablitsi-v-deistvii1.jpeg
+tags: ['css']
 ---
 Разберем на примере всевозможные теги из которых может состоять таблица. Рассмотрим ранее разобранные теги в действии. Объединим ячейки и колонки, создадим сущности для управления стилями колонок.
 

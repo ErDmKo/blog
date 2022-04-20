@@ -3,6 +3,7 @@ title: 'Домашняя страничка на GitHub: содержимое ч
 date: '2019-07-21T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/domashniaia-stranichka-na-github-soderjimoe-chast-2-5d34a0c423371c00af31821f
 cover: kot-kontent-korobki1.jpeg
+tags: ['html', 'css', 'github']
 ---
  [Ранее](/blog/domashnyaya-stranichka-naithub-soderzhimoe-chast-1) мы сверстали базовый макет и заголовок страниц тут же непосредственно перейдем к описанию верстки блока фотографии адреса и формы доната.
 

@@ -3,6 +3,7 @@ title: 'Домашняя страничка на GitHub: заголовки'
 date: '2019-04-14T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/domashniaia-stranichka-na-github-zagolovki-5cab92d3aeacde00ae235ce4
 cover: golova-kota1.jpeg
+tags: ['github', 'css', 'html']
 ---
 Тут сконцентрируемся на том как сформировать заголовочные теги для созданной [ранее](/blog/domashnyaya-stranichka-na-github-baza) базовой страницы. Это важно сделать для обнаружения страницы поисковыми роботами.
 

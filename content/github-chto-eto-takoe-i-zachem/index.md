@@ -3,6 +3,7 @@ title: 'GitHub: Что это такое и зачем?'
 date: '2021-03-21T23:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/github-chto-eto-takoe-i-zachem-604b168b53bd6e5e971161a1
 cover: kot-pisatel1.jpeg
+tags: ['github']
 ---
 Рассмотрим тут решение одной из самых популярных задач - "как опубликовать файлы в интернет?".
 

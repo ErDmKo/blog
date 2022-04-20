@@ -3,6 +3,7 @@ title: 'CSS: позиционирование fixed sticky'
 date: '2020-04-18T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/css-pozicionirovanie-fixed-sticky-5ddae37b1d7c9c37ebede3f7
 cover: lipuchie-koti1.png
+tags: ['css']
 ---
 Ранее мы рассмотрели "классические" виды позиционирования, которые часто применяются в верстке и являются очень надежными и распространенными.
 

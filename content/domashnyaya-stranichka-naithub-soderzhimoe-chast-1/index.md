@@ -3,6 +3,7 @@ title: 'Домашняя страничка на GitHub: содержимое ч
 date: '2019-07-20T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/domashniaia-stranichka-na-github-soderjimoe-chast-1-5d09d06205ad9900af505170
 cover: kot-napolnil-kontetom-konteiner1.jpeg
+tags: ['css', 'github', 'html']
 ---
  [Ранее](/blog/domashnyaya-stranichka-na-github-zagolovki) мы обсудили детали касающиеся разметки заголовков, и общую идею создания домашней странички, здесь же давайте сделаем самое главное добавим содержимое на страницу.
 

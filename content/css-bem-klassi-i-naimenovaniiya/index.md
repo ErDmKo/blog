@@ -3,6 +3,7 @@ title: 'CSS: БЭМ классы и наименованиия'
 date: '2021-01-04T23:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/css-bem-klassy-i-naimenovaniiia-5f7609ad85c72a7ce495f63b
 cover: kot-iz-5-elementa1.png
+tags: ['css']
 ---
 Поговорим про технические детали того как обычно работают с БЕМ методологией.
 

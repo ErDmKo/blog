@@ -3,6 +3,7 @@ title: 'CSS блоки - таблицы вводная'
 date: '2018-05-26T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/css-bloki-tablicy-vvodnaia-5b0a9b61c3321bd7bb35b626
 cover: css-bloki-tablitsi-vvodnaya1.jpeg
+tags: ['css']
 ---
 Тут поговорим, о исторически первом способе организовывать содержимое на страницах. О CSS правилах для отображения таблиц и их составных частей.
 

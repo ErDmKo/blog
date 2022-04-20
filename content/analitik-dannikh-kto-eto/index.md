@@ -3,6 +3,7 @@ title: 'Аналитик данных кто это?'
 date: '2021-08-21T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/analitik-dannyh-kto-eto-61216d8b79caa304e0dcad49
 cover: analitik-za-rabotoi1.gif
+tags: ['analytics']
 ---
 В целом аналитик данных это, конечно, человек, который работает с данными 🙂
 

@@ -3,6 +3,7 @@ title: 'CSS: Псевдо элементы'
 date: '2019-10-11T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/css-psevdo-elementy-5d7e4024433ecc00ad2675a3
 cover: psevdokoti-iz-treilera-tan-domashnikh-zhivotnikh-21.jpeg
+tags: ['css']
 ---
 Рассмотрим тут пару самых популярных псевдо элементов, которые используются для разработки интерфейсов. Попробуем на примерах разобраться зачем они нужны, и что позволяют упростить.
 

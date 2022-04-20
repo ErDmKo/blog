@@ -3,6 +3,7 @@ title: 'Основы CSS цвета'
 date: '2018-05-01T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/osnovy-css-cveta-5ae97c2d58166913139d92ac
 cover: https1.jpeg
+tags: ['css']
 ---
  [Ранее](/blog/osnovi-css-vesa-pravil) мы описывали цвета на с использованием английских слов "red, green, blue". Но этого явно не достаточно описать все цвета которые может различать человеческий глаз, тут мы рассмотрим как эта проблема решена в CSS.
 

@@ -3,6 +3,7 @@ title: 'Основы CSS: позиционирование'
 date: '2019-11-23T23:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/osnovy-css-pozicionirovanie-5bd577af5e505200a999c7f4
 cover: absolyutnoe-pozitsionirove-reshaet-mnogie-problemi2.jpeg
+tags: ['css']
 ---
 Тут рассмотрим очень важную тему для верстки. Позиционирование HTML элементов.
 

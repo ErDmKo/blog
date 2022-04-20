@@ -3,6 +3,7 @@ title: 'Основы CSS - веса селекторов'
 date: '2018-04-26T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/osnovy-css-vesa-selektorov-5ad4e488830905f568348f74
 cover: osnovi-css-vesa-selektorov2.jpeg
+tags: ['css']
 ---
 Тут мы поговорим о том как определить какое на самом деле значение CSS свойства будет применено на элементе.
 

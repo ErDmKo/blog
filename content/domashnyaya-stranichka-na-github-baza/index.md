@@ -3,6 +3,7 @@ title: 'Домашняя страничка на GitHub: база'
 date: '2019-04-07T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/domashniaia-stranichka-na-github-baza-5c0d3310b2ad0b00ad077a3d
 cover: kot-v-dome1.png
+tags: ['github', 'css', 'html']
 ---
 Попытаемся тут создать домашнюю страничку на github используя только технологии CSS и HTML
 

@@ -3,6 +3,7 @@ title: 'CSS блоки - inline'
 date: '2018-05-19T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/css-bloki-inline-5ae57f8c8c8be3337340860b
 cover: css-bloki-inline1.jpeg
+tags: ['css']
 ---
 Здесь поговорим про правило display, о том как располагаются строчные HTML элементы относительно друг друга . Объясним причины появления пресловутых пробелов и методы борьбы с ними. Немного затронем правила внешних и внутренних отступов.
 

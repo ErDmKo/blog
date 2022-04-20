@@ -3,6 +3,7 @@ title: 'Основы CSS - веса правил'
 date: '2018-04-26T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/osnovy-css-vesa-pravil-5ae389bef03173ba38d055ec
 cover: osnovi-css-vesa-pravil1.jpeg
+tags: ['css']
 ---
 Тут поговорим о приоритетах CSS правил на верхнем уровне не углубляясь в селекторы. Что если в атрибутах тега описано одно поведение, а в стилях другое. Что за флаг !important и как с ним бороться.
 

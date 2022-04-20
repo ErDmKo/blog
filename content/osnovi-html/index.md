@@ -3,6 +3,7 @@ title: 'Основы HTML'
 date: '2018-03-15T23:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/osnovy-html-5aab98ba256d5c6d18182ebe
 cover: osnovi-html1.jpeg
+tags: ['html']
 ---
 Тут объясняются общие термины и понятия которые необходимы чтобы читать HTML разметку.
 

@@ -3,6 +3,7 @@ title: 'Основы CSS - размеры'
 date: '2018-07-06T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/osnovy-css-razmery-5b1e6bd39b403c334853e6b3
 cover: osnovi-css-razmeri1.jpeg
+tags: ['css']
 ---
 Тут поговорим о единицах измерения шрифтов и размеров, которые можно использовать в CSS.
 

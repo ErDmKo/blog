@@ -3,6 +3,7 @@ title: 'Основы CSS - уровень правил'
 date: '2018-04-21T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/osnovy-css-uroven-pravil-5ad4e18f58166926c28e1b25
 cover: osnovi-css-uroven-pravil1.jpeg
+tags: ['css']
 ---
 Тут поговорим о CSS свойствах вообще. Ранее мы рассматривали способы выделения [HTML](/blog/osnovi-html) тегов в документе с помощью [CSS селекторов](/blog/osnovi-sss-selektori) и их [комбинаций](/blog/osnovi-sss-kombinatori). Теперь попробуем опустится еще на один уровень ниже. На уровне синтаксиса, зайдем внутрь фигурных скобок. С примерами таких правил как background, color, visibility, opacity на их примере разберемся о том как работают и чем отличаются initial и inherit.
 

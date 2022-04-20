@@ -3,6 +3,7 @@ title: 'CSS: Псевдоклассы'
 date: '2019-09-14T22:00:00.000Z'
 canonical: https://zen.yandex.ru/media/id/5a8ed6eddcaf8e23b97cf564/css-psevdoklassy-5d357e5d998ed600ae41dd04
 cover: psevdokot-iz-fb1.jpeg
+tags: ['css']
 ---
 Поговорим тут о том какие еще есть возможности в плане выбора элементов в css
 
