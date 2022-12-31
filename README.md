@@ -24,5 +24,5 @@ hugo -D
 ## Deploy
 
 ```bash
-ansible-playbook ansible/push.yaml -i ansible/inventory.yaml
+npm run pub
 ```
