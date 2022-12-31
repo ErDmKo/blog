@@ -8,6 +8,12 @@ Use this commad for development
 hugo server -D
 ```
 
+## New article
+
+```bash
+hugo hugo new content/${new_acritcle}/index.md
+```
+
 ## Build
 Before deploy
 
