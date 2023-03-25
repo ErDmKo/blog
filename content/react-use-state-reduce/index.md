@@ -1,5 +1,6 @@
 ---
 title: 'React как использовать useState для объектов'
+cover: 'cover.jpg'
 date: '2023-03-25T14:52:00.000Z'
 tags: ['react', 'js', 'typescript']
 ---
