@@ -1,4 +1,4 @@
-baseURL = 'https://erdmko.us.to/blog'
+baseURL = 'https://erdmko.dev/blog'
 defaultContentLanguage = 'ru'
 title = 'ErDmKo blog'
 enableRobotsTXT = true
