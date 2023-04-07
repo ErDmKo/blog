@@ -81,6 +81,7 @@ a:hover {
 }
 .l nav > a {
     display: block;
+    margin: 10px 0px;
 }
 .l a:hover {
     text-decoration: underline;
