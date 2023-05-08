@@ -34,7 +34,7 @@ const task = curry2(cont);
 
 ## Последовательное исполнение
 ```ts
-const plusOne = (prevResult) => {
+const plusOne = (priviousResult) => {
   return task(priviousResult + 1);
 }
 
@@ -54,7 +54,18 @@ const pipe = (...fnList) => {
   }
 }
 ```
+Аналогично можно написать через pipe
+```ts
+const result = task(1)(plusOne)(plusOne)(idFn)
 
+const sameResult = pipe(
+  task,
+  task(plusOne),
+  task(plusOne),
+  task(idFn)
+)(1)
+
+```
 
 ## Инструменты для работы с синхронным кодом
 
@@ -81,13 +92,21 @@ const someDangerous = taskOf((num) => {
   return num + 2;
 });
 ```
-Пример использованя трансформер
-
+Примеры использованя функции "трансформера"
 ```ts
 someDangerous(2)(taskFork(idFn))
 
+pipe(
+  task,
+  task(someDangerous),
+  task(taskFork(
+    idFn,
+    (error) => console.error(error)
+  ))
+)(2)
 ```
-Пример использованя "может быть" функции. Где исключение будет скрыто 
+Пример использованя "может быть" функции. Где исключение будет 
+
 ```ts
 const taskMap = curry2((mapFn, fn) => task((resolve, reject) =>
   fn((result) => resolve(mapFn(result)), reject)
@@ -95,16 +114,25 @@ const taskMap = curry2((mapFn, fn) => task((resolve, reject) =>
 ```
 Функция для создания цепочек синхронных модификаций результатов работы задач.
 ```ts
-const getTwoTask = taskOf(idFn.bind(null, 2));
+const returnTwo = idFn.bind(null, 2);
+const getTwoTask = taskOf(returnTwo);
 const multipyTwoTask = taskMap((priviousResult) => {
   return priviousResult * 2;
 });
 const throwTask = taskMap((priviousResult) => {
   throw new Error('Hello from throw task');
 });
-const resultTask = getTwoTask(multipyTwoTask)(multipyTwoTask);
 
-const result = resultTask(taskFork(idFn, noop));
+const resultTask = getTwoTask()(throwTask)(multipyTwoTask);
+const result = resultTask(taskFork(idFn, returnTwo));
+
+const sameResult = pipe(
+  getTwoTask,
+  task(throwTask),
+  task(multipyTwoTask),
+  task(taskFork(idFn, returnTwo))
+)()
+
 ```
 Чему буде равна переменая result?
 
@@ -112,7 +140,7 @@ const result = resultTask(taskFork(idFn, noop));
 
 ```ts
 const taskChain = curry2((chainFn, fn) => 
-  task((resolve, reject) => 
+  task((resolve, reject) =>
     fn((result) => chainFn(result)(taskFork(resolve, reject)), reject)
   )
 );
@@ -124,7 +152,7 @@ const delay500 = taskChain((priviousResult) => task((resolve, reject) => {
       resolve(priviousResult)
     }, 500);
 }));
-const res = getTwoTask(delay500)(multipyTwoTask)(taskFork((result) => {
+const res = getTwoTask()(delay500)(multipyTwoTask)(taskFork((result) => {
   console.log(result)
 }))
 ```
