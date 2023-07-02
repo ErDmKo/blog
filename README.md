@@ -15,14 +15,15 @@ hugo new content/${new_acritcle}/index.md
 ```
 
 ## Build
-Before deploy
 
+Just build commad
 ```bash
 hugo -D
 ```
 
 ## Deploy
 
+Rebuild again and publish
 ```bash
 npm run pub
 ```
