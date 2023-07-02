@@ -11,7 +11,7 @@ hugo server -D
 ## New article
 
 ```bash
-hugo content/${new_acritcle}/index.md
+hugo new content/${new_acritcle}/index.md
 ```
 
 ## Build
