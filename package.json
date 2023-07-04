@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "hugo server -D",
-    "build": "hugo -D",
+    "build": "hugo",
     "pub": "npm run build && ansible-playbook ansible/push.yaml -i ansible/inventory.yaml"
   },
   "author": "erdmko",
