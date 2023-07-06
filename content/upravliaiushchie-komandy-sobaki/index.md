@@ -46,6 +46,8 @@ that's absolutely not necessary but she will be there every time you eat
 so we give here no more than 2-3 of her chicken treats per day
 and a little bit of kefir/yogurt [like on picture]
 
+{{< imgresize "edk_ygurt.jpg" "yogurt" >}} 
+
 and also if something falls when we cook - that's hers - so if something falls that should not be eaten - you should be quick
 she usually understands "no" or "don't touch it" ("net / nel'zya" or "fuuu" in Russian) but not always 🙁 please, be careful about that
 
