@@ -143,6 +143,8 @@ a:hover {
         right: 0px;
         padding: 30px;
         top: 0px;
+        bottom: 0px;
+        overflow-y: scroll;
         width: 400px;
     }
 }
