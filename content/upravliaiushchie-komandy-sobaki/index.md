@@ -142,75 +142,75 @@ She is very cute and we hope that you would enjoy the time with her!
 
 ## Appendix commands
 
-### Молодец
-molodets - well done
+### Well done
+molodets - well done - Молодец
 
-### Хороший пес
-khoroshiy pes - good dog
+### Good dog
+khoroshiy pes - good dog - Хороший пес
 
-### Плохой пес
-plokhoi pes  - bad dog
+### Bad dog
+plokhoi pes  - bad dog - Плохой пес
 
-### Уходи
-ukhodi - go away
+### Go away
+ukhodi - go away - Уходи
 
-### Нет
-net - no
+### No
+net - no - Нет
 
-### Да
-da - yes
+### Yes
+da - yes - Да
 
-### Нельзя
-nel'zya - no, don't do it
+### No, don't do it
+nel'zya - no, don't do it - Нельзя
 
-### Иди сюда
-idi syuda / ko mne - come here / come to me
+### Come here
+idi syuda / ko mne - come here / come to me - Иди сюда
 
-### Сидеть
-sidet' - sit
+### Sit
+sidet' - sit - Сидеть
 {{< imgresize "edk_sit.jpeg" "sit" >}} 
 
-### Стой
-stoy - stop
+### Stop 
+stoy - stop - Стой
 
-### Лежать
-lezhat' - lie down
+### lie down
+lezhat' - lie down - Лежать
 {{< imgresize "edk_lay.jpeg" "lie down" >}} 
 
-### Гулять
-gulyat' / idem gulyat’ - let's go for a walk
+### Walk
+gulyat' / idem gulyat’ - let's go for a walk - Гулять
 
-### Все хорошо
-vse khorosho - everything is fine /everything is ok
+### Everything is fine
+vse khorosho - everything is fine /everything is ok - Все хорошо
 
-### Дай лапу
-dai lapu - give me a paw
+### Paw 
+dai lapu - give me a paw - Дай лапу
 {{< imgresize "edk_pawn.jpeg" "give me a paw" >}} 
 
-### Танцуй
-tantsui - dance
+### Dance
+tantsui - dance - Танцуй
 {{< imgresize "edk_dance.jpeg" "dance" >}} 
 
-### Вкусняшка
-vkusnyashka - treat
+### Treat 
+vkusnyashka - treat - Вкусняшка
 
-### Хочешь вкусняшку?
-khochesh vkusnyashku - do you want a treat
+### Do you want a treat
+khochesh vkusnyashku - do you want a treat - Хочешь вкусняшку?
 
-### Курочка
-kurochka - chiken
+### Chiken  
+kurochka - chiken - Курочка
 
-### Кефир
-kefir - kefir / yogurt
+### Kefir
+kefir - kefir / yogurt - Кефир
 
-### Привет
-privet - hi
+### Hi 
+privet - hi - Привет
 
-### Спасибо
-spasibo - thank you
+### Thank you
+spasibo - thank you - Спасибо
 
-### Собака / пес
-sobaka / pes - dog
+### Dog 
+sobaka / pes - dog - Собака / пес
 
-### Фуу
-fu / fuuuu - don’t touch that
+### Don’t touch that
+fu / fuuuu - don’t touch that - Фуу
