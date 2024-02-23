@@ -18,7 +18,7 @@ tags: ['js', 'typescript']
 
 ## Варианты{#varianti} 
 
-Для тех кто очень спешит я сразу хочу предложить перейти к [исходному коду](https://github.com/ErDmKo/month.erdmko.de/tree/master/assets/src).
+Для тех кто очень спешит я сразу хочу предложить перейти к [исходному коду](https://github.com/ErDmKo/month.erdmko.de/tree/master/assets/js/snowflake).
 
 ### В лоб{#v-lob} 
 
