@@ -23,7 +23,7 @@ twice a day: first time in the morning and second time in the evening. She’ll 
 
 In the morning she usually walks around 8-9 and in the evening around 18-19. But she is quite flexible about the timings. Sometimes on the weekends we walk her around 10 or 11 in the morning, and she is ok with that. She is not a morning dog. In case of an emergency, she will usually let you know by wining, screaming, running around and leading you to the door.
 
-Most of the time we walk with her about 20 minutes. That’s how long it takes to find her sweet spot to do both her businesses. But she is ok with long walks as well, in case you’d like to take her with you somewhere. The only thing about long walks is that she might want to drink. We take some water with us or her, or when we walk around the lake or river, she can just drink from there.
+Most of the time we walk with her about 20 minutes. That’s how long it takes to find her sweet spot to do both her businesses. But she is ok with long walks as well, in case you’d like to take her with you somewhere. The only thing about long walks is that she might want to drink. We take some water with us for her, or when we walk around the lake or river, she can just drink from there.
 
 ### Food 🍗
 She loves food. Twice a day after her walks she has her two big meals. We put her a little less than half of her bowl [like on picture]
