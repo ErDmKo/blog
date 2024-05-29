@@ -4,6 +4,10 @@
   vars:
     install_dirr: '/opt/blog'
   tasks:
+  - name: directory exist
+    ansible.builtin.file:
+      path: "{{ install_dirr }}"
+      state: directory
   - name: push
     ansible.posix.synchronize:
       src: './../public'
