@@ -6,16 +6,9 @@
   "scripts": {
     "dev": "hugo server -D",
     "build": "hugo",
-    "pub": "npm run build && ansible-playbook ansible/push.yaml -i ansible/inventory.yaml"
+    "pub": "npm run build && uv run ansible-playbook ansible/push.yaml -i ansible/inventory.yaml"
   },
   "author": "erdmko",
   "license": "MIT",
-  "dependencies": {
-    "cyrillic-to-translit-js": "^3.1.0",
-    "date-fns": "^2.28.0",
-    "mmmagic": "^0.5.3",
-    "prettier": "^2.6.2",
-    "selenium-standalone": "^8.0.10",
-    "webdriverio": "^7.19.3"
-  }
+  "dependencies": {}
 }

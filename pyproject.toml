@@ -1,0 +1,9 @@
+[project]
+name = "blog"
+version = "0.1.0"
+description = "Small automation for blog dependencies"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ansible>=10.7.0",
+]
