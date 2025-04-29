@@ -15,7 +15,7 @@
     {{ end -}}
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>{{ block "title" . }}ErDmKo Blog{{end}}</title>
-    {{ $css := resources.Get "css/main.css" | css.Sass | resources.Minify | resources.Fingerprint }}
+    {{ $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $css.Permalink }}">
     <link media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css?family=Poiret+One|Roboto&display=swap" rel="stylesheet">
     {{ $favicon := resources.Get "img/favicon.png" }}
