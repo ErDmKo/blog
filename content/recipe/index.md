@@ -305,3 +305,24 @@ date: 2025-03-02T15:54:23+01:00
 
 Приятного аппетита!
 
+## Запеканка
+
+### Ингридиенты
+
+- Cottage сheese (Tvorog) casserole (for 4):
+- Frozen cherries – 100 g
+- Tvorog – 350-400 g
+- Semolina (Grieß) – 1-2 tbsp
+- Eggs – 2
+- Sugar – 1 tbsp
+- Vanilla sugar – 1 tsp
+- Salt – a pinch
+
+### Приготовление
+
+1. In a bowl, mix semolina, eggs, salt, and vanilla sugar, whisk until smooth.
+2. Add tvorog, mix again, and let the mixture rest for 15–20 minutes so the semolina can absorb moisture.
+3. Preheat the oven to 180°C
+4. Transfer the cottage cheese mixture into a baking dish.
+5. Place the cherries on top and gently press them into the batter.
+6. Bake for ~40 minutes.
