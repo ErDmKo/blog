@@ -305,11 +305,10 @@ date: 2025-03-02T15:54:23+01:00
 
 Приятного аппетита!
 
-## Запеканка
+## Cottage сheese (Tvorog) casserole (for 4)
 
 ### Ингридиенты
 
-- Cottage сheese (Tvorog) casserole (for 4):
 - Frozen cherries – 100 g
 - Tvorog – 350-400 g
 - Semolina (Grieß) – 1-2 tbsp
