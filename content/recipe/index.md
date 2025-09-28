@@ -319,9 +319,26 @@ date: 2025-03-02T15:54:23+01:00
 
 ### Приготовление
 
-1. In a bowl, mix semolina, eggs, salt, and vanilla sugar, whisk until smooth.
-2. Add tvorog, mix again, and let the mixture rest for 15–20 minutes so the semolina can absorb moisture.
-3. Preheat the oven to 180°C
-4. Transfer the cottage cheese mixture into a baking dish.
-5. Place the cherries on top and gently press them into the batter.
-6. Bake for ~40 minutes.
+In a bowl, mix semolina, eggs, salt, and vanilla sugar, whisk until smooth.
+
+{{< imgresize "zapekanka/1.png" "eggs, salt, vanilla sugar" >}}
+
+Add tvorog, mix again, and let the mixture rest for 15–20 minutes so the semolina can absorb moisture.
+
+{{< imgresize "zapekanka/2.png" "Resting mixture" >}}
+
+Preheat the oven to 180°C
+
+{{< imgresize "zapekanka/3.png" "Mixed with tvorog" >}}
+
+Transfer the cottage cheese mixture into a baking dish.
+
+{{< imgresize "zapekanka/4.png" "Tvorog inside baking dish" >}}
+
+Place the cherries on top and gently press them into the batter.
+
+{{< imgresize "zapekanka/5.png" "Cherries and tvorog dish" >}}
+
+Bake for ~40 minutes.
+
+{{< imgresize "zapekanka/6.png" "Ready for baking" >}}
